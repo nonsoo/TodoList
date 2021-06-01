@@ -15,8 +15,8 @@ struct ListView: View {
     ]
     var body: some View {
         List{
-            ForEach(items ){item in
-ListRowView(item: item)
+            ForEach(items){item in
+                ListRowView(item: item)
             }
         }
         .listStyle(PlainListStyle())
